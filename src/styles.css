@@ -1,0 +1,73 @@
+/*etiquetas de html va directamente el nombre*/
+/*etiquetas de class va "." antes del nombre*/
+/*etiquetas de ID va "#" antes del nombre*/
+/* 0%⬆ 0%➡ 0%⬇ 0%⬅ */
+
+.mifoto{
+    border-radius: 100%;
+    margin-top: auto;
+}
+/* .sobremi{
+    width: 100%;
+    height: 12rem;
+    border: 3px solid red;
+    margin-top: auto;
+    background-color: white;
+    color: black;
+    text-align: center;
+} */
+/* .body{
+    background-image:url(/assets/img/teclado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-position: center;
+}  */
+
+.espacio{
+    color: transparent;
+}
+.contenedor{
+    text-align: center;
+
+}
+
+.lafoto{
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.fotos{
+    width: 50%;
+    height: 80% ;
+}
+.col-4{
+    margin-bottom: 2%;
+}
+.txbanner{
+    text-align:center;
+    margin-top: 20%;
+}
+.piepag{
+    display: flex;
+    color: black;
+    margin-bottom: -2%;
+    background-color: rgb(65, 65, 141);
+    width: auto;
+    height: auto;    
+}
+.icons{
+    display:block;
+}
+#collaps{
+   margin-right: 0%;
+   margin-left: 0%;
+}
+
+#mensaje{
+    border: 4px ridge rgba(65, 65, 141, 0.705);
+    width: 30%;
+    height: auto;
+}

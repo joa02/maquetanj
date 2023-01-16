@@ -1,0 +1,54 @@
+<app-barnav></app-barnav>
+<!-- banner -->
+<div class="banner">
+  <div class="txbanner">
+    <h1>{{miPorfolio.nombre}}</h1>
+    <h5>{{miPorfolio.posicion}}</h5>
+    <a href="#sobremi"><button class="btn btn-outline-primary" id="bbutton"><i class="fa fa-angle-double-down "></i></button></a>
+    <!-- <button class="btn btn-light" routerLink="/dashB"><i class="fa fa-angle-double-down "></i></button> -->
+  </div>
+</div>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" id="loginModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">iniciar sesion</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+
+          <div class="mb-3">
+      
+            <label for="idE" class="form-label">Correo</label>
+      
+            <input type="email" id="idE1" aria-describedby ="idEH" class="form-control">
+      
+            <div id="idEH" class="form-text">Debe ser un correo válido.</div>
+      
+          </div>
+      
+          <div class="mb-3">
+      
+            <label for="exampleInputPassword" class="form-label">Password</label>
+      
+            <input type="password" class="form-control1" id="exampleInputPassword">
+      
+          </div>
+      
+          <div class="mb-3 form-check">
+      
+            <input type="checkbox" class="form-check-input" id="exampleCheck">
+      
+            <label class="form-check-label" for="exampleCheck">Recordarme</label>
+      
+          </div>
+      
+          <button type="submit" class="btn btn-primary">Enviar</button>        
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>

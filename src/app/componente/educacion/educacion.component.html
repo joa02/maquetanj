@@ -1,0 +1,107 @@
+<body>
+  <app-barnav></app-barnav>
+  <section id="educacion">
+    <div class="cj1 col-7 rounded shadow-lg p-3 mb-5 bg-body-tertiary rounded ">
+      <ul>
+          <li *ngFor="let educacion of educationList" id="caja" class="row justify-content-start ">
+            <div class="col-4" id="image">
+              <i class="fas fa-school-flag fa-6x"></i>
+            </div>
+            <div class="col-6 caja1 rounded" >
+                  <h3>{{educacion.school}}</h3>
+                  <p class="dat">{{educacion.carrera}}</p>
+                  <p class="dat">{{educacion.titulo}}</p>
+                  <p class="dat"><time>{{educacion.start}}</time>-<time>{{educacion.end}}</time> </p>
+            </div>
+          </li>
+          <li class="row justify-content-start">
+            <div class="col-4" id="image">
+                <i class="fas fa-computer fa-6x"></i>
+            </div>
+            <div class="col-4 caja1 rounded">
+                <h3>Curso</h3>
+                <p class="dat">Programador web</p>
+                <p class="dat"><time>2022</time>-<time>*</time> </p>
+            </div>
+          </li>
+      </ul>
+    </div>
+    <div class="habilidades">
+      <div class="cj1 caja  rounded col-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded" >
+        <section >
+          <h4 class="border border-top-0 rounded col-5">Habilidades tecnicas</h4>
+          <ul class=" caja1">
+            <li >
+              <p>Lenguaje</p> 
+              <div class="progress-stacked">
+                <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+                  <div class="progress-bar">java</div>
+                  <div class="progress-bar bg-success">js</div>
+                  <div class="progress-bar bg-info">git</div>
+                </div>
+              </div> 
+            </li>
+            <li>
+              <p>Herramientas</p>
+              <div class="col-9">
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="20">
+                  <div class="progress-bar progress-bar-striped" style="width: 25%">ANGULAR</div>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="20">
+                  <div class="progress-bar progress-bar-striped bg-success" style="width: 25%">GITHUB</div>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50">
+                  <div class="progress-bar progress-bar-striped bg-info" style="width: 25%">VISUAL CODE STUDIO</div>
+                </div>
+              </div>           
+              
+            </li>
+            <li>
+              <p>Front-en</p>
+              <div class="progress-stacked">
+                <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+                  <div class="progress-bar">Html</div>
+                  <div class="progress-bar bg-success">CSS</div>
+                  <div class="progress-bar bg-info">JSON</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <P>Back-end</P>
+              <div class="progress-stacked">
+                <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+                  <div class="progress-bar">?</div>
+                  <div class="progress-bar bg-success">?</div>
+                  <div class="progress-bar bg-info">?</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        
+      </div>
+
+      <section class="cj1 border border-top-0 rounded shadow-lg p-3 mb-5 bg-body-tertiary rounded col-5" >
+        <h4 class="border border-top-0 rounded col-5 ">Habilidades de Idiomas</h4>
+        <ul class=" caja1">
+          <li>
+            <p>Ingles</p>
+            <div class="col-9">
+              <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="20">
+                <div class="progress-bar progress-bar-striped" style="width: 25%"></div>
+              </div>
+            </div>           
+            <p>Español</p>
+            <div class="col-9">
+              <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="20">
+                <div class="progress-bar progress-bar-striped" style="width: 100%"></div>
+              </div>
+            </div>           
+            
+          </li>
+        </ul>
+      </section>
+    </div>
+  </section>
+  <app-pie-de-pagina></app-pie-de-pagina>
+</body>

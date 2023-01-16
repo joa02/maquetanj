@@ -1,0 +1,83 @@
+{
+    "nombre": "Joaquin J. Hernandez",
+    "background-image": "url(/assets/img/banner1.jpg)",
+    "imagen": "assets/img/selfijoa1c.png",
+    "posicion": "Programador • Desarrollador Web • Diseñador Gráfico",
+    "redes":{
+    "github": "https://github.com/joa02",
+    "email": "joah219@outlook.com",
+    "linkedin": "joa Hernandez"
+    },
+    "Educacion":[
+        {
+            "id":1,
+            "school":"escuelaN°1",
+            "carrera":"Primaria,Secundaria",
+            "titulo":"bachiller de derecho",
+            "score":"12",
+            "start":"2008",
+            "end":"2019",
+            "img":""
+        },
+        {
+            "id":2,
+            "school":"UnerFCEco",
+            "carrera":"Tecn.Univ.Gest.de RRHH",
+            "titulo":"TURGRRHH",
+            "score":"12",
+            "start":"2022",
+            "end":"#",
+            "img":""
+        }
+    ],
+    "Ubicacion":"",
+    "about":"loremm",
+
+    "conocimentos":[
+        {
+            "id":1,
+            "tipo":"lenguaje",
+            "img": "image",
+            "descr":"loremm"
+        },
+        {
+            "id":2,
+           "tipo": "herramientas",
+            "img": "image",
+            "descr":"loremm"
+        },
+        {
+            "id":3,
+           "tipo": "frontend",
+            "img": "image",
+            "descr":"loremm"
+        },
+        {
+            "id":4,
+           "tipo": "backend",
+            "img": "image",
+            "descr":"loremm"
+        }
+    ],
+    "proyectos":[
+        {
+            "id":1,
+            "nombrePr":" ",
+            "image":"",
+            "descr":"loremm"
+        },
+        {
+            "id":2,
+            "nombrePr":" ",
+            "image":"img",
+            "descr":"loremm"
+        },
+        {
+            "id":3,
+            "nombrePr":" ",
+            "image":"img",
+            "descr":"loremm"
+        }
+    ]
+    
+}

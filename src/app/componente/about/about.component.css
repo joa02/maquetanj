@@ -1,0 +1,11 @@
+.sobremi{
+    width: 100%;
+    height: 12rem;
+    border: 3px outset red;
+    margin-top: auto;
+    margin-bottom: 1%;
+    background-color: white;
+    color: black;
+    text-align: center;
+
+}
